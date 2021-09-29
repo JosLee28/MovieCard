@@ -1,2 +1,2 @@
 # MovieCard
-Static layout using HTML&CSS & JS
+Static layout using HTML & CSS & JS
