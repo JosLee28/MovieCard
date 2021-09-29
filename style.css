@@ -1,3 +1,6 @@
+
+
+
 :root{
   --main-color: #010B26;
   --second-color: #ffff;
@@ -6,4 +9,69 @@
   --fifth-color: #1CD0F9;
   --sixth-color: #666;
 }
+
+*,
+*::after,
+*::before{
+  box-sizing: border-box;
+}
+
+html{
+  box-sizing: inherit;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+/* Header */
+
+.main-header{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 20% 70% 10%;  
+  grid-auto-rows: 50px;
+  grid-auto-columns: auto;
+  background-color: var(--main-color);  
+}
+
+.main-header__container{      
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-header__title{
+  margin: 0;
+  color: var(--second-color);
+  font-size: .8rem;  
+}
+
+.main-header__sign{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: .7rem;
+  
+}
+/* Hamburger menu */
+.btn-container{  
+  position: fixed;  
+  left: 0px;
+  bottom: 0px;
+  display: inline-block;
+  border-radius: 100%;
+  background-color: var(--second-color);
+}
+
+.main-menu{
+}
+
+
 
