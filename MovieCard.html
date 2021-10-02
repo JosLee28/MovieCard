@@ -1,93 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
-  <title>Movie Card</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.1.3/hamburgers.min.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>  
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;700;800&display=swap" rel="stylesheet">
-</head>
-<body>
-  <header class="main-header">
-    <div class="main-header__container">      
-      <h1 class="main-header__title">AOX Movies</h1>
-    </div>
-    <input type="search" placeholder="search" class="main-header__text">
-    <button type="button" class="main-header__sign">SignUp</button>
-  </header>  
-  <nav class="main-menu">
-    <div class="main-menu__container">
-      <ul class="main-menu__item">
-        <img src="" alt="" class="main-menu__img">
-        <a href="#" class="main-menu__link">Videos</a>
-      </ul>
-      <ul class="main-menu__item">
-        <img src="" alt="" class="main-menu__img">
-        <a href="#" class="main-menu__link">Movies & Shows</a>
-      </ul>
-      <ul class="main-menu__item">
-        <img src="" alt="" class="main-menu__img">
-        <a href="#" class="main-menu__link">Premiun Content</a>
-      </ul>
-      <ul class="main-menu__item">
-        <img src="" alt="" class="main-menu__img">
-        <a href="#" class="main-menu__link">Live</a>
-      </ul>    
-    </div>        
-    <div class="main-menu__container">
-      <ul class="main-menu__item">
-        <img src="" alt="" class="main-menu__img">
-        <a href="#" class="main-menu__link">Subscriptions</a>
-      </ul>
-      <ul class="main-menu__item">
-        <img src="" alt="" class="main-menu__img">
-        <a href="#" class="main-menu__link">Library</a>
-      </ul>
-      <ul class="main-menu__item">
-        <img src="" alt="" class="main-menu__img">
-        <a href="#" class="main-menu__link">Linked Videos</a>
-      </ul>
-      <ul class="main-menu__item">
-        <img src="" alt="" class="main-menu__img">
-        <a href="#" class="main-menu__link">Watch later</a>
-      </ul>      
-    </div>        
-    <div class="main-menu__container">
-      <ul class="main-menu__item">
-        <img src="" alt="" class="main-menu__img">
-        <a href="#" class="main-menu__link">Settings</a>
-      </ul>
-      <ul class="main-menu__item">
-        <img src="" alt="" class="main-menu__img">
-        <a href="#" class="main-menu__link">Settings</a>
-      </ul>            
-    </div>        
-  </nav>
-  <section class="movie">
-    <header class="movie__header">
-      <h2 class="movie__title">Movies</h2>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Card</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.1.3/hamburgers.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="main-header__container">
+        <h1 class="main-header__title">AOX Movies</h1>
+      </div>
+      <input type="search" placeholder="search" class="main-header__text" />
+      <button type="button" class="main-header__sign">SignUp</button>
     </header>
-    <div class="movie__container">      
-      <article class="movie-article">
-        <img src="" alt="" class="movie-article__img">
-        <div class="movie-article__content">
-          <h3 class="movie-article__title"></h3>
-        </div>
-      </article>
-    </div>
-  </section>
+    <nav class="main-menu" id="menu">
+      <div class="main-menu__container">
+        <ul class="main-menu__item">
+          <img src="img/video.png" alt="video" class="main-menu__img" />
+          <a href="#" class="main-menu__link">Videos</a>
+        </ul>
+        <ul class="main-menu__item">
+          <img src="img/camera.png" alt="Movies & Shows" class="main-menu__img" />
+          <a href="#" class="main-menu__link">Movies & Shows</a>
+        </ul>
+        <ul class="main-menu__item">
+          <img src="img/premiunContent.png" alt="premiunContent" class="main-menu__img" />
+          <a href="#" class="main-menu__link">Premiun Content</a>
+        </ul>
+        <ul class="main-menu__item">
+          <img src="img/live.png" alt="live" class="main-menu__img" />
+          <a href="#" class="main-menu__link">Live</a>
+        </ul>
+      </div>
+      <div class="main-menu__container">
+        <ul class="main-menu__item">
+          <img src="img/subscription.png" alt="subscription" class="main-menu__img" />
+          <a href="#" class="main-menu__link">Subscriptions</a>
+        </ul>
+        <ul class="main-menu__item">
+          <img src="img/library.png" alt="library" class="main-menu__img" />
+          <a href="#" class="main-menu__link">Library</a>
+        </ul>
+        <ul class="main-menu__item">
+          <img src="img/linkedVideo.png" alt="LinkedVideos" class="main-menu__img" />
+          <a href="#" class="main-menu__link">Linked Videos</a>
+        </ul>
+        <ul class="main-menu__item">
+          <img src="img/watchLater.png" alt="watch" class="main-menu__img" />
+          <a href="#" class="main-menu__link">Watch later</a>
+        </ul>
+      </div>
+      <div class="main-menu__container">
+        <ul class="main-menu__item">
+          <img src="img/settings.png" alt="settings" class="main-menu__img" />
+          <a href="#" class="main-menu__link">Settings</a>
+        </ul>
+        <ul class="main-menu__item">
+          <img src="img/help.png" alt="help" class="main-menu__img" />
+          <a href="#" class="main-menu__link">Help & Support</a>
+        </ul>
+      </div>
+    </nav>
+    <section class="movie">
+      <header class="movie__header">
+        <h2 class="movie__title">Movies</h2>
+      </header>
+      <div class="movie__container">
+        <article class="movie-article">
+          <img src="" alt="" class="movie-article__img" />
+          <div class="movie-article__content">
+            <h3 class="movie-article__title"></h3>
+          </div>
+        </article>
+      </div>
+    </section>
 
-  <div class="btn-container" id="btn-container">
-    <button class="hamburger hamburger--spin-r" type="button" id="btn-hamburger">
-      <span class="hamburger-box">
-        <span class="hamburger-inner"></span>
-      </span>
-    </button>
-  </div>
-</body>
-<script src="MovieCard.js"></script>
+    <div class="btn-container" id="btn-container">
+      <button
+        class="hamburger hamburger--minus"
+        type="button"
+        id="btn-hamburger"
+      >
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+      </button>
+    </div>
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+  </body>
+  <script src="MovieCard.js"></script>
 </html>
