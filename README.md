@@ -2,7 +2,7 @@
 
 Static layout using HTML & CSS & JS
 
-Link: https://josuelee.github.io/MovieCard/
+Link: https://kunjolee.github.io/MovieCard/
 
 ## Desktop Version
 
