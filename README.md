@@ -1,6 +1,6 @@
 # MovieCard
 
-Static layout using HTML & CSS & JS
+Responsive modern layout about movies using HTML & CSS
 
 Link: https://kunjolee.github.io/MovieCard/
 
